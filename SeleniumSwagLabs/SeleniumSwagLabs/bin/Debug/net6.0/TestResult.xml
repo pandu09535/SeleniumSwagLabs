@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="5" result="Passed" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="27" engine-version="3.15.2.0" clr-version="6.0.7" start-time="2022-07-28 19:38:51Z" end-time="2022-07-28 19:43:36Z" duration="284.464203">
+  <command-line><![CDATA[D:\NUnit.Console-3.15.2\bin\net6.0\nunit3-console.dll SeleniumSwagLabs.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1011" name="SeleniumSwagLabs.dll" fullname="C:/Users/PANDURANG/source/repos/SeleniumSwagLabs/SeleniumSwagLabs/bin/Debug/net6.0/SeleniumSwagLabs.dll" runstate="Runnable" testcasecount="5" result="Passed" start-time="2022-07-28T19:38:51.8000841Z" end-time="2022-07-28T19:43:36.1315726Z" duration="284.331457" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="27">
+    <environment framework-version="3.13.3.0" clr-version="6.0.7" os-version="Microsoft Windows 10.0.22000" platform="Win32NT" cwd="C:\Users\PANDURANG\source\repos\SeleniumSwagLabs\SeleniumSwagLabs\bin\Debug\net6.0" machine-name="LAPTOP-L47I943O" user="PANDURANG" user-domain="LAPTOP-L47I943O" culture="en-IN" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\PANDURANG\source\repos\SeleniumSwagLabs\SeleniumSwagLabs\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="9284" />
+      <property name="_APPDOMAIN" value="nunit3-console" />
+    </properties>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="SeleniumSwagLabs_NUnitAssemblyHooks" classname="SeleniumSwagLabs_NUnitAssemblyHooks" runstate="Runnable" testcasecount="5" result="Passed" start-time="2022-07-28T19:38:51.8045558Z" end-time="2022-07-28T19:43:36.1315471Z" duration="284.326991" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="27">
+      <output><![CDATA[-> Loading plugin C:\Users\PANDURANG\source\repos\SeleniumSwagLabs\SeleniumSwagLabs\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\PANDURANG\source\repos\SeleniumSwagLabs\SeleniumSwagLabs\bin\Debug\net6.0\SeleniumSwagLabs.dll
+-> Using default config
+]]></output>
+      <test-suite type="TestSuite" id="1-1012" name="SeleniumSwagLabs" fullname="SeleniumSwagLabs" runstate="Runnable" testcasecount="5" result="Passed" start-time="2022-07-28T19:38:52.1003036Z" end-time="2022-07-28T19:43:36.1306112Z" duration="284.030307" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="27">
+        <test-suite type="TestSuite" id="1-1013" name="Features" fullname="SeleniumSwagLabs.Features" runstate="Runnable" testcasecount="5" result="Passed" start-time="2022-07-28T19:38:52.1003529Z" end-time="2022-07-28T19:43:36.1306068Z" duration="284.030254" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="27">
+          <test-suite type="TestFixture" id="1-1001" name="ContactSalesFeature" fullname="SeleniumSwagLabs.Features.ContactSalesFeature" classname="SeleniumSwagLabs.Features.ContactSalesFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-07-28T19:38:52.1003790Z" end-time="2022-07-28T19:40:06.8812218Z" duration="74.780843" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+            <properties>
+              <property name="Description" value="ContactSales" />
+            </properties>
+            <test-case id="1-1002" name="VerifyingTheContactsaleFunctionality" fullname="SeleniumSwagLabs.Features.ContactSalesFeature.VerifyingTheContactsaleFunctionality" methodname="VerifyingTheContactsaleFunctionality" classname="SeleniumSwagLabs.Features.ContactSalesFeature" runstate="Runnable" seed="184768395" result="Passed" start-time="2022-07-28T19:38:52.1019047Z" end-time="2022-07-28T19:40:06.8781443Z" duration="74.776297" asserts="6">
+              <properties>
+                <property name="Description" value="Verifying the Contactsale functionality" />
+              </properties>
+              <output><![CDATA[Given Chrome is opened And SwagLab app is Opened
+Swag Labs
+-> done: ContactSalesStepDefinitions.GivenChromeIsOpenedAndSwagLabAppIsOpened() (5.0s)
+And User enters Correct Username "standard_user" and Password "secret_sauce"
+-> done: ContactSalesStepDefinitions.GivenUserEntersCorrectUsernameAndPassword("standard_user", "secret_sauce") (2.1s)
+When User click On login button
+-> done: ContactSalesStepDefinitions.GivenUserClickOnLoginButton() (2.1s)
+Then It shows Home page
+Swag Labs
+-> done: ContactSalesStepDefinitions.ThenItShowsHomePage() (2.3s)
+When user Click on Hamburger
+-> done: ContactSalesStepDefinitions.ThenUserClickOnHamburger() (2.0s)
+Then It shows lists of Components
+Swag Labs
+-> done: ContactSalesStepDefinitions.ThenItShowsListsOfComponents() (2.2s)
+When User clicks On About
+-> done: ContactSalesStepDefinitions.ThenUserClicksOnAbout() (5.8s)
+Then It shows Saucelabs page
+Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs
+-> done: ContactSalesStepDefinitions.ThenItShowsSaucelabsPage() (2.3s)
+When User Clicks on contact
+-> done: ContactSalesStepDefinitions.ThenUserClicksOnContact() (2.3s)
+Then It Shows Contact components
+Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs
+-> done: ContactSalesStepDefinitions.ThenItShowsContactComponents() (2.3s)
+When User clicks on Contactsales
+-> done: ContactSalesStepDefinitions.ThenUserClicksOnContactsales() (5.2s)
+Then It shows Contactsales page
+Contact Sales | Sauce Labs
+-> done: ContactSalesStepDefinitions.ThenItShowsContactsalesPage() (2.1s)
+When User enters  FirstName "panduranga"
+-> done: ContactSalesStepDefinitions.WhenUserEntersFirstName("panduranga") (2.1s)
+And User enters Lastname "sangde"
+-> done: ContactSalesStepDefinitions.WhenUserEntersLastname("sangde") (2.1s)
+And user enters companyname "Saucelabs"
+-> done: ContactSalesStepDefinitions.WhenUserEntersCompanyname("Saucelabs") (2.1s)
+And user enters Businessmail "panduranga0808@gmail.com"
+-> done: ContactSalesStepDefinitions.WhenUserEntersBusinessmail("panduranga0808@gm...") (2.1s)
+And user enters PhoneNumber "8073286898"
+-> done: ContactSalesStepDefinitions.WhenUserEntersPhoneNumber("8073286898") (2.1s)
+And user select the Companysize
+-> done: ContactSalesStepDefinitions.WhenUserSelectTheCompanysize() (7.1s)
+And user select the Countryname
+-> done: ContactSalesStepDefinitions.WhenUserSelectTheCountryname() (7.1s)
+And user fills how did u hear about us Textarea "Social network"
+-> done: ContactSalesStepDefinitions.WhenUserFillsHowDidUHearAboutUsTextarea("Social network") (2.1s)
+And user fills comments in commentbox "my problem is pending"
+-> done: ContactSalesStepDefinitions.WhenUserFillsCommentsInCommentbox("my problem is pen...") (4.1s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1003" name="ContactSupportFeature" fullname="SeleniumSwagLabs.Features.ContactSupportFeature" classname="SeleniumSwagLabs.Features.ContactSupportFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-07-28T19:40:06.8823943Z" end-time="2022-07-28T19:41:09.0051282Z" duration="62.122732" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+            <properties>
+              <property name="Description" value="ContactSupport" />
+            </properties>
+            <test-case id="1-1004" name="VerifyingTheContactSupportPage" fullname="SeleniumSwagLabs.Features.ContactSupportFeature.VerifyingTheContactSupportPage" methodname="VerifyingTheContactSupportPage" classname="SeleniumSwagLabs.Features.ContactSupportFeature" runstate="Runnable" seed="655251634" result="Passed" start-time="2022-07-28T19:40:06.8828876Z" end-time="2022-07-28T19:41:09.0048074Z" duration="62.121920" asserts="6">
+              <properties>
+                <property name="Description" value="Verifying the ContactSupport page" />
+              </properties>
+              <output><![CDATA[Given Chrome is opened and SwagLab App is Opened
+Swag Labs
+-> done: ContactSupportStepDefinitions.GivenChromeIsOpenedAndSwagLabAppIsOpened() (5.0s)
+And User enters correct Username "standard_user" And Password "secret_sauce"
+-> done: ContactSupportStepDefinitions.GivenUserEntersCorrectUsernameAndPassword("standard_user", "secret_sauce") (5.1s)
+When User click on login Button
+-> done: ContactSupportStepDefinitions.WhenUserClickOnLoginButton() (2.1s)
+Then It shows home Page
+Swag Labs
+-> done: ContactSupportStepDefinitions.ThenItShowsHomePage() (5.2s)
+When user click On Hamburger
+-> done: ContactSupportStepDefinitions.WhenUserClickOnHamburger() (2.0s)
+Then It shows Lists of components
+Swag Labs
+-> done: ContactSupportStepDefinitions.ThenItShowsListsOfComponents() (5.2s)
+When User Clicks on About
+-> done: ContactSupportStepDefinitions.WhenUserClicksOnAbout() (4.0s)
+Then It Shows saucelabs page
+Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs
+-> done: ContactSupportStepDefinitions.ThenItShowsSaucelabsPage() (5.3s)
+When User clicks On contact
+-> done: ContactSupportStepDefinitions.WhenUserClicksOnContact() (2.3s)
+Then It shows contact components
+Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs
+-> done: ContactSupportStepDefinitions.ThenItShowsContactComponents() (5.3s)
+When User clicks on ContactSupport
+-> done: ContactSupportStepDefinitions.WhenUserClicksOnContactSupport() (3.8s)
+Then It shows ContactSupport page
+Support and Services | Sauce Labs
+-> done: ContactSupportStepDefinitions.ThenItShowsContactSupportPage() (5.2s)
+And User clicks on Getsupport
+-> done: ContactSupportStepDefinitions.ThenUserClicksOnGetsupport() (5.1s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1005" name="GeneralInquiriesFeature" fullname="SeleniumSwagLabs.Features.GeneralInquiriesFeature" classname="SeleniumSwagLabs.Features.GeneralInquiriesFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-07-28T19:41:09.0051606Z" end-time="2022-07-28T19:42:06.3195339Z" duration="57.314373" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+            <properties>
+              <property name="Description" value="General Inquiries" />
+            </properties>
+            <test-case id="1-1006" name="VerifyingTheGeneralInquiriesPage" fullname="SeleniumSwagLabs.Features.GeneralInquiriesFeature.VerifyingTheGeneralInquiriesPage" methodname="VerifyingTheGeneralInquiriesPage" classname="SeleniumSwagLabs.Features.GeneralInquiriesFeature" runstate="Runnable" seed="1245049648" result="Passed" start-time="2022-07-28T19:41:09.0055113Z" end-time="2022-07-28T19:42:06.3191809Z" duration="57.313670" asserts="6">
+              <properties>
+                <property name="Description" value="Verifying the General Inquiries page" />
+              </properties>
+              <output><![CDATA[Given Chrome is opened and swagLab app is Opened
+Swag Labs
+-> done: GeneralInquiriesStepDefinitions.GivenChromeIsOpenedAndSwagLabAppIsOpened() (5.0s)
+And USer enters correct Username "standard_user" and Password "secret_sauce"
+-> done: GeneralInquiriesStepDefinitions.GivenUserEntersCorrectUsernameAndPassword("standard_user", "secret_sauce") (5.1s)
+When USer click on login button
+-> done: GeneralInquiriesStepDefinitions.WhenUserClickOnLoginButton() (2.1s)
+Then IT shows home page
+Swag Labs
+-> done: GeneralInquiriesStepDefinitions.ThenItShowsHomePage() (5.2s)
+When USer click on Hamburger
+-> done: GeneralInquiriesStepDefinitions.WhenUserClickOnHamburger() (2.0s)
+Then IT shows lists of components
+Swag Labs
+-> done: GeneralInquiriesStepDefinitions.ThenItShowsListsOfComponents() (5.2s)
+When USer clicks on About
+-> done: GeneralInquiriesStepDefinitions.WhenUserClicksOnAbout() (2.6s)
+Then IT shows saucelabs page
+Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs
+-> done: GeneralInquiriesStepDefinitions.ThenItShowsSaucelabsPage() (5.3s)
+When USer clicks on contact
+-> done: GeneralInquiriesStepDefinitions.WhenUserClicksOnContact() (2.3s)
+Then IT shows Contact components
+Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs
+-> done: GeneralInquiriesStepDefinitions.ThenItShowsContactComponents() (5.3s)
+When User clicks on GeneralInquiries
+-> done: GeneralInquiriesStepDefinitions.WhenUserClicksOnGeneralInquiries() (5.6s)
+Then It shows GeneralInquiries page
+Contact Us | Sauce Labs
+-> done: GeneralInquiriesStepDefinitions.ThenItShowsGeneralInquiriesPage() (5.1s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1007" name="LoginFeature" fullname="SeleniumSwagLabs.Features.LoginFeature" classname="SeleniumSwagLabs.Features.LoginFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-07-28T19:42:06.3195648Z" end-time="2022-07-28T19:42:39.9818784Z" duration="33.662314" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <properties>
+              <property name="Description" value="Login" />
+            </properties>
+            <test-case id="1-1008" name="VerifySwagLabsLoginFunctionalityOnChrome" fullname="SeleniumSwagLabs.Features.LoginFeature.VerifySwagLabsLoginFunctionalityOnChrome" methodname="VerifySwagLabsLoginFunctionalityOnChrome" classname="SeleniumSwagLabs.Features.LoginFeature" runstate="Runnable" seed="316569744" result="Passed" start-time="2022-07-28T19:42:06.3198863Z" end-time="2022-07-28T19:42:39.9816278Z" duration="33.661742" asserts="3">
+              <properties>
+                <property name="Description" value="Verify SwagLabs login functionality on chrome" />
+              </properties>
+              <output><![CDATA[Given Chrome is Opened and SwagLab app is Opened
+Swag Labs
+-> done: LoginStepDefinitions.GivenChromeIsOpenedAndSwagLabAppIsOpened() (5.0s)
+When User enters correct Username "standard_user" and Password "secret_sauce"
+-> done: LoginStepDefinitions.WhenUserEntersCorrectUsernameAndPassword("standard_user", "secret_sauce") (5.1s)
+When User Click on login button
+-> done: LoginStepDefinitions.WhenUserClickOnLoginButton() (2.1s)
+Then It Shows home page
+Swag Labs
+-> done: LoginStepDefinitions.ThenItShowsHomePage() (5.2s)
+When User click on Hamburger
+-> done: LoginStepDefinitions.ThenUserClickOnHamburger() (2.0s)
+Then It Shows lists of components
+Swag Labs
+-> done: LoginStepDefinitions.ThenItShowsListsOfComponents() (5.2s)
+And User clicks on About
+-> done: LoginStepDefinitions.ThenUserClicksOnAbout() (2.5s)
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1-1009" name="SauceCommunityFeature" fullname="SeleniumSwagLabs.Features.SauceCommunityFeature" classname="SeleniumSwagLabs.Features.SauceCommunityFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-07-28T19:42:39.9819129Z" end-time="2022-07-28T19:43:36.1305905Z" duration="56.148678" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+            <properties>
+              <property name="Description" value="SauceCommunity" />
+            </properties>
+            <test-case id="1-1010" name="VerifyingTheSauceCommunityPage" fullname="SeleniumSwagLabs.Features.SauceCommunityFeature.VerifyingTheSauceCommunityPage" methodname="VerifyingTheSauceCommunityPage" classname="SeleniumSwagLabs.Features.SauceCommunityFeature" runstate="Runnable" seed="1204938816" result="Passed" start-time="2022-07-28T19:42:39.9822684Z" end-time="2022-07-28T19:43:36.1303606Z" duration="56.148092" asserts="6">
+              <properties>
+                <property name="Description" value="Verifying the SauceCommunity page" />
+              </properties>
+              <output><![CDATA[Given Chrome is opened and SwagLab app is Opened
+Swag Labs
+-> done: SauceCommunityStepDefinitions.GivenChromeIsOpenedAndSwagLabAppIsOpened() (5.0s)
+And User enters correct Username "standard_user" and Password "secret_sauce"
+-> done: SauceCommunityStepDefinitions.GivenUserEntersCorrectUsernameAndPassword("standard_user", "secret_sauce") (5.1s)
+When User click on login button
+-> done: SauceCommunityStepDefinitions.WhenUserClickOnLoginButton() (2.1s)
+Then It shows home page
+Swag Labs
+-> done: SauceCommunityStepDefinitions.ThenItShowsHomePage() (5.2s)
+When user click on Hamburger
+-> done: SauceCommunityStepDefinitions.WhenUserClickOnHamburger() (2.0s)
+Then It shows lists of components
+Swag Labs
+-> done: SauceCommunityStepDefinitions.ThenItShowsListsOfComponents() (5.2s)
+When User clicks on About
+-> done: SauceCommunityStepDefinitions.WhenUserClicksOnAbout() (2.5s)
+Then It shows saucelabs page
+Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs
+-> done: SauceCommunityStepDefinitions.ThenItShowsSaucelabsPage() (5.3s)
+When User clicks on contact
+-> done: SauceCommunityStepDefinitions.WhenUserClicksOnContact() (2.3s)
+Then It shows Contact components
+Cross Browser Testing, Selenium Testing, Mobile Testing | Sauce Labs
+-> done: SauceCommunityStepDefinitions.ThenItShowsContactComponents() (5.3s)
+When User clicks on SauceCommunity
+-> done: SauceCommunityStepDefinitions.WhenUserClicksOnSauceCommunity() (4.5s)
+Then It shows SauceCommunity page
+Community | Sauce Labs
+-> done: SauceCommunityStepDefinitions.ThenItShowsSauceCommunityPage() (5.2s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
